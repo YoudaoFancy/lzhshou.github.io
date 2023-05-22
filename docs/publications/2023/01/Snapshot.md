@@ -1,4 +1,4 @@
-## 成果速递
+## 论文简介
 
 ### 一种使用新颖重建策略研究含有随机夹杂物岩土材料的力学性质与断裂特性的FDEM方法
 
@@ -12,7 +12,10 @@
 
 - 采用了一种基于曲率加权球面Voronoi（CWSVM）的几何计算方法的表面重建方法（图1），可以在保留主要形状特征的同时有效地细化夹杂物几何形状。CWSVM可以很好地控制网格数量和质量（图2）。
 
-##### 图1
+<center>
+![workflow](Fig-1.png "Detailed strategy of the CWSVM."){:style="width:70%"}
+Fig. 1: Detailed strategy of the CWSVM.
+</center>
 
 ##### 图2
 
