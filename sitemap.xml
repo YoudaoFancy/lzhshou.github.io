@@ -2,42 +2,162 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://lzhshou.github.io/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/about/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/cv/cv_lzhshou/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/people/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/publications/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2019/huang_eg/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2019/lai_ag/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2019/lai_oe/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2019/xia_pt/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2020/gleaton_cbm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2020/huang_cg/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2020/lai_cmame/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2021/huang_cpm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2021/lai_amm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2021/lai_cg/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2021/lai_ijnamg/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2021/lai_oe/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2021/lai_pt/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2022/lai_cm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2022/wu_em/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2022/xiao_cbm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2022/zhao_ijnme/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2023/huang_eg/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/2023/lin_efm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/before%202019/chen_env-geo/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/before%202019/lai_gm/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/before%202019/lai_ijnamg/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/before%202019/liang_ejece/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://lzhshou.github.io/publications/before%202019/mota_ijnme/abstract/</loc>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/research/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/resources/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://lzhshou.github.io/teaching/</loc>
-         <lastmod>2023-05-19</lastmod>
+         <lastmod>2023-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
