@@ -1,9 +1,6 @@
-<<<<<<< Updated upstream
-#### Under construction
-=======
-## 利用光线追踪核心在 GPU 上进行基于粒子的模拟
+### 利用光线追踪核心在 GPU 上进行基于粒子的模拟
 
-近日，*黄林冲教授* 团队在期刊***International Journal for Numerical Methods in Engineering***发表了题为**Leveraging ray tracing cores for particle-based simulations on GPUs**（*利用光线追踪核心在 GPU 上进行基于粒子的模拟*）的论文。香港科技大学*赵仕威助理研究教授*为第一作者，*赖正首副教授*为通讯作者。该研究受到国家自然科学基金、广东省基础与应用基础研究基金、香港研究资助局和河套深港科技创新合作区项目等资助。
+论文题为**Leveraging ray tracing cores for particle-based simulations on GPUs**（*利用光线追踪核心在 GPU 上进行基于粒子的模拟*），发表于期刊***International Journal for Numerical Methods in Engineering***。香港科技大学*赵仕威助理研究教授*为第一作者，*赖正首副教授*为通讯作者。该研究受到国家自然科学基金、广东省基础与应用基础研究基金、香港研究资助局和河套深港科技创新合作区项目等资助。
 
 #### 问题描述
 
@@ -58,4 +55,3 @@
 本文提出了一种提出了用于基于粒子的数值方法的基于RT的邻域搜索算法，相较于传统的基于单元的邻域搜索算法快10%∼60%，具体取决于模拟的问题和 GPU 规格，为使用基于粒子的数值方法对大规模工程问题进行下一代高性能计算提供了新方法。
 
 ##### 编辑：郭子琦
->>>>>>> Stashed changes
