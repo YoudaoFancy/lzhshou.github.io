@@ -1,8 +1,6 @@
-## 成果速递
+### 用于颗粒介质 DEM 建模的基于polybezier的粒子模
 
-### 用于颗粒介质 DEM 建模的基于polybezier的粒子模型
-
-近日，*黄林冲教授* 团队在期刊***Computers and Geotechnics***发表了题为**A polybe  ́zier-based particle model for the DEM modeling of granular media**（*用于颗粒介质 DEM 建模的基于polybezier的粒子模型*）的论文。*赖正首副教授*为第一作者，*黄林冲教授*为通讯作者。该研究收到香江学者项目、国家自然科学基金面上项目和青年项目以及深圳市自然科学基金等资助。
+论文题为**A polybe  ́zier-based particle model for the DEM modeling of granular media**（*用于颗粒介质 DEM 建模的基于polybezier的粒子模型*），发表于期刊***Computers and Geotechnics***。*赖正首副教授*为第一作者，*黄林冲教授*为通讯作者。该研究收到香江学者项目、国家自然科学基金面上项目和青年项目以及深圳市自然科学基金等资助。
 
 #### 问题描述
 

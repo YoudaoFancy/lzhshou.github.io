@@ -1,6 +1,4 @@
-## 成果速递
-
-### 具有颗粒内空隙的珊瑚砂的形态特征和离散元建模
+## 具有颗粒内空隙的珊瑚砂的形态特征和离散元建模
 
 近日，*黄林冲教授* 团队在期刊***Engineering Geology***发表了题为**Morphology characterization and discrete element modeling of coral sand with intraparticle voids**（*具有颗粒内空隙的珊瑚砂的形态特征和离散元建模*）的论文。*黄帅博士*为第一作者，*赖正首副教授*为通讯作者。该研究收到香港学者计划、国家自然科学基金、深圳市可持续发展科技计划、深圳市自然科学基金、河套深港科技创新合作区项目、香港研究资助局等资助。
 
