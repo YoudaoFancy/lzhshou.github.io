@@ -122,7 +122,7 @@
                 
                 
                 <li>
-                    <a href="https://github.com/lzhshou/lzhshou.github.io/">
+                    <a href="https://github.com/lzhshou/lzhshou.github.io">
                         
                             <i class="fa fa-github-square"></i>
                         
@@ -141,16 +141,68 @@
             <div class="col-md-3 visible-xs visible-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#gpu">利用光线追踪核心在 GPU 上进行基于粒子的模拟</a></li>
+        
+            <li><a href="#_1"> &#9731; 问题描述</a></li>
+        
+            <li><a href="#_2"> &#9731; 主要创新</a></li>
+        
+            <li><a href="#_3"> &#9731; 科学价值</a></li>
+        
+    
     </ul>
 </div></div> <!-- toc on top on mobile -->
             <div class="col-md-3 hidden-xs hidden-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
+        <li class="main active"><a href="#gpu">利用光线追踪核心在 GPU 上进行基于粒子的模拟</a></li>
+        
+            <li><a href="#_1"> &#9731; 问题描述</a></li>
+        
+            <li><a href="#_2"> &#9731; 主要创新</a></li>
+        
+            <li><a href="#_3"> &#9731; 科学价值</a></li>
+        
+    
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-</div>
+<div><h3 id="gpu">利用光线追踪核心在 GPU 上进行基于粒子的模拟</h3>
+<p>论文题为<strong>Leveraging ray tracing cores for particle-based simulations on GPUs</strong>（<em>利用光线追踪核心在 GPU 上进行基于粒子的模拟</em>），发表于期刊<strong><em>International Journal for Numerical Methods in Engineering</em></strong>。香港科技大学<em>赵仕威助理研究教授</em>为第一作者，<em>赖正首副教授</em>为通讯作者。该研究受到国家自然科学基金、广东省基础与应用基础研究基金、香港研究资助局和河套深港科技创新合作区项目等资助。</p>
+<h4 id="_1">问题描述</h4>
+<p>如离散元方法 (DEM)、分子动力学 (MD)、近场动力学 (PD) 和光滑粒子流体动力学 (SPH) 等基于粒子的数值方法，因其无网格和高度可并行化的特点而在研究和工程应用中愈加受到欢迎。对于此类数值方法，粒子的运动取决于其与周围粒子（邻居）的相互作用，是以粒子的邻域搜索为关键一步。邻域搜索计算量大、现有方法用时长，需要开发新的算法，加速计算、减少用时。</p>
+<h4 id="_2">主要创新</h4>
+<ul>
+<li>提出了一种基于光线追踪（RT）的邻域搜索算法，并以基于单元的算法为基准。此算法利用了NVIDIA光线追踪核心，通过OptiX采用了最先进的BVH算法。</li>
+</ul>
+<p></p><center>
+<p><img alt="workflow" src="../fig-1.png" style="width:70%"></p>
+<p>图 1 邻域搜索问题转化光线追踪问题示意图</p>
+<p><img alt="workflow" src="../fig-2.png" style="width:70%"></p>
+<p>图 2 具有两个物理单元的NVIDIA光线追踪核心（A）及OptiX7中常见光线追踪工作流程（B）图</p>
+<p></p></center>
+<ul>
+<li>验证了基于RT的邻域搜索算法于基于GPU的DEM代码中的应用和实现。</li>
+</ul>
+<p></p><center>
+<p><img alt="workflow" src="../fig-3.png" style="width:70%"></p>
+<p>图 3 基于GPU的DEM工作流程伪代码图</p>
+<p></p></center>
+<ul>
+<li>基于上述内容，在DEM展开颗粒堆积、柱体坍塌和干泥石流数值模拟试验，以评估所提出的基于RT的算法相对于传统的基于单元的算法的计算性能。结果表明，前者可以比后者快大约10%∼60%，所需内存几乎一致。对于可以最大程度利用光线追踪核心的大型粒子系统和动态问题，性能增益可能更为显着。</li>
+</ul>
+<p></p><center>
+<p><img alt="workflow" src="../fig-4.png" style="width:70%"></p>
+<p>图 4 颗粒堆积数值模拟图，其中(A)t=0s、(B)t=2s、(C)t=4s、(D)t=40s</p>
+<p><img alt="workflow" src="../fig-5.png" style="width:70%"></p>
+<p>图 5 柱坍塌数值模拟图，其中你（A）初态、（B）终态</p>
+<p><img alt="workflow" src="../fig-6.png" style="width:70%"></p>
+<p>图 6 干泥石流数值模拟图，其中（A）地形及滑动面、（B）放大滑动面</p>
+<p></p></center>
+<h4 id="_3">科学价值</h4>
+<p>本文提出了一种提出了用于基于粒子的数值方法的基于RT的邻域搜索算法，相较于传统的基于单元的邻域搜索算法快10%∼60%，具体取决于模拟的问题和 GPU 规格，为使用基于粒子的数值方法对大规模工程问题进行下一代高性能计算提供了新方法。</p>
+<h5 id="_4">编辑：郭子琦</h5></div></div>
             <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">

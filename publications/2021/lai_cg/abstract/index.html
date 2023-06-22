@@ -122,7 +122,7 @@
                 
                 
                 <li>
-                    <a href="https://github.com/lzhshou/lzhshou.github.io/">
+                    <a href="https://github.com/lzhshou/lzhshou.github.io">
                         
                             <i class="fa fa-github-square"></i>
                         
@@ -141,14 +141,13 @@
             <div class="col-md-3 visible-xs visible-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#_1">成果速递</a></li>
+        <li class="main active"><a href="#dem-polybezier">用于颗粒介质 DEM 建模的基于polybezier的粒子模</a></li>
         
-            <li><a href="#dem-polybezier"> &#9731; 用于颗粒介质 DEM 建模的基于polybezier的粒子模型</a></li>
+            <li><a href="#_1"> &#9731; 问题描述</a></li>
         
-    
-        <li class="main "><a href="#_6">成果速递</a></li>
+            <li><a href="#_2"> &#9731; 主要创新</a></li>
         
-            <li><a href="#dem-polybezier_1"> &#9731; 用于颗粒介质 DEM 建模的基于polybezier的粒子模型</a></li>
+            <li><a href="#_3"> &#9731; 科学价值</a></li>
         
     
     </ul>
@@ -156,127 +155,67 @@
             <div class="col-md-3 hidden-xs hidden-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#_1">成果速递</a></li>
+        <li class="main active"><a href="#dem-polybezier">用于颗粒介质 DEM 建模的基于polybezier的粒子模</a></li>
         
-            <li><a href="#dem-polybezier"> &#9731; 用于颗粒介质 DEM 建模的基于polybezier的粒子模型</a></li>
+            <li><a href="#_1"> &#9731; 问题描述</a></li>
         
-    
-        <li class="main "><a href="#_6">成果速递</a></li>
+            <li><a href="#_2"> &#9731; 主要创新</a></li>
         
-            <li><a href="#dem-polybezier_1"> &#9731; 用于颗粒介质 DEM 建模的基于polybezier的粒子模型</a></li>
+            <li><a href="#_3"> &#9731; 科学价值</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD:docs/publications/2021/lai_cg/abstract.md</p>
-<h2 id="_1">成果速递</h2>
-<h3 id="dem-polybezier">用于颗粒介质 DEM 建模的基于polybezier的粒子模型</h3>
-<p>近日，<em>黄林冲教授</em> 团队在期刊<strong><em>Computers and Geotechnics</em></strong>发表了题为<strong>A polybe  ́zier-based particle model for the DEM modeling of granular media</strong>（<em>用于颗粒介质 DEM 建模的基于polybezier的粒子模型</em>）的论文。<em>赖正首副教授</em>为第一作者，<em>黄林冲教授</em>为通讯作者。该研究收到香江学者项目、国家自然科学基金面上项目和青年项目以及深圳市自然科学基金等资助。</p>
-<h4 id="_2">问题描述</h4>
+<div><h3 id="dem-polybezier">用于颗粒介质 DEM 建模的基于polybezier的粒子模</h3>
+<p>论文题为<strong>A polybe  ́zier-based particle model for the DEM modeling of granular media</strong>（<em>用于颗粒介质 DEM 建模的基于polybezier的粒子模型</em>），发表于期刊<strong><em>Computers and Geotechnics</em></strong>。<em>赖正首副教授</em>为第一作者，<em>黄林冲教授</em>为通讯作者。该研究收到香江学者项目、国家自然科学基金面上项目和青年项目以及深圳市自然科学基金等资助。</p>
+<h4 id="_1">问题描述</h4>
 <p>颗粒状材料，例如矿石、沙子和谷物等，在本质上通常是非球形的。众所周知，颗粒不规则性对颗粒介质的堆积密度、刚度和强度等宏观性质具有重大影响。实验室实验结果表明，颗粒不规则性的增加（例如，球形度/圆度的降低）将导致极端空隙率的增加、小应变刚度的降低、可压缩性的增加、增加临界状态线截距等。</p>
 <p>离散元法(DEM)是颗粒介质建模的一个突出的数值工具，它已被用于广泛的工程学科中的许多应用。要为颗粒介质创建准确且可预测的 DEM 模型，其中的关键就是考虑颗粒形状的不规则性。</p>
-<h4 id="_3">主要创新</h4>
+<h4 id="_2">主要创新</h4>
 <ul>
 <li>提出了一种基于polybezier的颗粒模型，该模型由一组bezier曲线组成，可描述光滑、不规则形状例子的DEM模型。（图1）</li>
 </ul>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-1.png" /></p>
-<p><center> 图1 </center></p>
-<ul>
-<li>通过GJK算法检测接触（图2），采用EPA算法求解接触几何特征（图3）。采用GJK和EPA组合丰富了polybezier颗粒模型与现有的其他颗粒模型在计算中的兼容性。</li>
-</ul>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-2.png" /></p>
-<p><center>图2 </center></p>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-3.png" /></p>
-<p><center>图3 </center></p>
-<ul>
-<li>基于上述所提出的颗粒模型，提出了一种基于粒子群（PSO）的几何拟合程序（图4），在不同形态的颗粒中均拟合效果较好（图5）。</li>
-</ul>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-4.png" /></p>
-<p><center>图4 </center></p>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-5.png" /></p>
-<p><center>图5 </center></p>
-<ul>
-<li>上述算法在DEM中开展随机堆积和双轴压缩数值模拟实验，计算效果较好（图6）。</li>
-</ul>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-6.png" /></p>
-<p><center>图6 </center></p>
-<ul>
-<li>上述优化算法有从2D向3D推广的可行性。（图7）</li>
-</ul>
-<p><img alt="image text" src="https://github.com/lzhshou/lzhshou.github.io/blob/lichh53-test/docs/publications/2021/05/Fig-7.png" /></p>
-<p><center>图7 </center></p>
-<h4 id="_4">科学价值</h4>
-<p>本文提出了一种新的基于polybezier的粒子模型，用于描述光滑和不规则形状的DEM模型。根据该几何描述模型，提出了具有鲁棒性的接触搜索算法与几何接触特征求解算法。基于提出的PSO拟合程序可实现复杂形状颗粒的数值拟合，可为矿石、谷物等多种材料的DEM模拟前处理提供了可靠的数值工具。</p>
-<h5 id="_5">编辑：李诚豪</h5>
-<p>========</p>
-<h2 id="_6">成果速递</h2>
-<h3 id="dem-polybezier_1">用于颗粒介质 DEM 建模的基于polybezier的粒子模型</h3>
-<p>近日，<em>黄林冲教授</em> 团队在期刊<strong><em>Computers and Geotechnics</em></strong>发表了题为<strong>A polybe  ́zier-based particle model for the DEM modeling of granular media</strong>（<em>用于颗粒介质 DEM 建模的基于polybezier的粒子模型</em>）的论文。<em>赖正首副教授</em>为第一作者，<em>黄林冲教授</em>为通讯作者。该研究收到香江学者项目、国家自然科学基金面上项目和青年项目以及深圳市自然科学基金等资助。</p>
-<h4 id="_7">问题描述</h4>
-<p>颗粒状材料，例如矿石、沙子和谷物等，在本质上通常是非球形的。众所周知，颗粒不规则性对颗粒介质的堆积密度、刚度和强度等宏观性质具有重大影响。实验室实验结果表明，颗粒不规则性的增加（例如，球形度/圆度的降低）将导致极端空隙率的增加、小应变刚度的降低、可压缩性的增加、增加临界状态线截距等。</p>
-<p>离散元法(DEM)是颗粒介质建模的一个突出的数值工具，它已被用于广泛的工程学科中的许多应用。要为颗粒介质创建准确且可预测的 DEM 模型，其中的关键就是考虑颗粒形状的不规则性。</p>
-<h4 id="_8">主要创新</h4>
-<ul>
-<li>提出了一种基于polybezier的颗粒模型，该模型由一组bezier曲线组成，可描述光滑、不规则形状例子的DEM模型。（图1）</li>
-</ul>
-<p><center></p>
-<p><img alt="workflow" src="../fig-1.png" style="width:70%" /></p>
+<p></p><center>
+<p><img alt="workflow" src="../fig-1.png" style="width:70%"></p>
 <p>图 1 基于bezier曲线的粒子说明图</p>
-<p></center></p>
+<p></p></center>
 <ul>
 <li>通过GJK算法检测接触（图2），采用EPA算法求解接触几何特征（图3）。采用GJK和EPA组合丰富了polybezier颗粒模型与现有的其他颗粒模型在计算中的兼容性。</li>
 </ul>
-<p><center></p>
-<p><img alt="workflow" src="../fig-2.png" style="width:70%" /></p>
+<p></p><center>
+<p><img alt="workflow" src="../fig-2.png" style="width:70%"></p>
 <p>图 2 GJK 算法说明图</p>
-<p><img alt="workflow" src="../fig-3.png" style="width:70%" /></p>
+<p><img alt="workflow" src="../fig-3.png" style="width:70%"></p>
 <p>图 3 EPA 算法说明图</p>
-<p></center></p>
+<p></p></center>
 <ul>
 <li>基于上述所提出的颗粒模型，提出了一种基于粒子群（PSO）的几何拟合程序（图4），在不同形态的颗粒中均拟合效果较好（图5）。</li>
 </ul>
-<p><center></p>
-<p><img alt="image text" src="../fig-4.png" style="width:70%" /></p>
+<p></p><center>
+<p><img alt="image text" src="../fig-4.png" style="width:70%"></p>
 <p>图 4 PSO 拟合程序示意图</p>
-<p><img alt="image text" src="../fig-5.png" style="width:70%" /></p>
+<p><img alt="image text" src="../fig-5.png" style="width:70%"></p>
 <p>图 5 具有不同圆度和球形特征的粒子形状的拟合示例</p>
-<p></center></p>
+<p></p></center>
 <ul>
 <li>上述算法在DEM中开展随机堆积和双轴压缩数值模拟实验，计算效果较好（图6）。</li>
 </ul>
-<p><center></p>
-<p><img alt="image text" src="../fig-6.png" style="width:70%" /></p>
+<p></p><center>
+<p><img alt="image text" src="../fig-6.png" style="width:70%"></p>
 <p>图 6 压缩过程结束时粒子堆积的快照：（a）非圆形颗粒和（b）圆形颗粒。红色实线代表接触力链。 Fc和Fn分别表示接触力的大小和正常接触力的平均幅度。</p>
-<p></center></p>
+<p></p></center>
 <ul>
 <li>上述优化算法有从2D向3D推广的可行性。（图7）</li>
 </ul>
-<p><center></p>
-<p><img alt="image text" src="../fig-7.png" style="width:70%" /></p>
+<p></p><center>
+<p><img alt="image text" src="../fig-7.png" style="width:70%"></p>
 <p>图 7 3D下粒子的示意图</p>
-<p></center></p>
-<h4 id="_9">科学价值</h4>
+<p></p></center>
+<h4 id="_3">科学价值</h4>
 <p>本文提出了一种新的基于polybezier的粒子模型，用于描述光滑和不规则形状的DEM模型。根据该几何描述模型，提出了具有鲁棒性的接触搜索算法与几何接触特征求解算法。基于提出的PSO拟合程序可实现复杂形状颗粒的数值拟合，可为矿石、谷物等多种材料的DEM模拟前处理提供了可靠的数值工具。</p>
-<h5 id="_10">编辑：李诚豪</h5>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>d4eca9f778fb1abb1935760183515cafa55cdfc7:docs/publications/2021/Lai_CG/Snapshot.md</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote></div>
+<h5 id="_4">编辑：李诚豪</h5></div></div>
             <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
