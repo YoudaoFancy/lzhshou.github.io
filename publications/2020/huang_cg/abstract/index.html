@@ -141,7 +141,13 @@
             <div class="col-md-3 visible-xs visible-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#under-construction">Under construction</a></li>
+        <li class="main active"><a href="#voronoi">关于应用质心Voronoi曲面细分和随机场理论的场地调查程序优化</a></li>
+        
+            <li><a href="#_1"> &#9731; 问题描述</a></li>
+        
+            <li><a href="#_2"> &#9731; 主要创新</a></li>
+        
+            <li><a href="#_3"> &#9731; 科学价值</a></li>
         
     
     </ul>
@@ -149,14 +155,44 @@
             <div class="col-md-3 hidden-xs hidden-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#under-construction">Under construction</a></li>
+        <li class="main active"><a href="#voronoi">关于应用质心Voronoi曲面细分和随机场理论的场地调查程序优化</a></li>
+        
+            <li><a href="#_1"> &#9731; 问题描述</a></li>
+        
+            <li><a href="#_2"> &#9731; 主要创新</a></li>
+        
+            <li><a href="#_3"> &#9731; 科学价值</a></li>
         
     
     </ul>
 </div></div>
             <div class="col-md-9" role="main">
 
-<h4 id="under-construction">Under construction</h4></div>
+<div><h3 id="voronoi">关于应用质心Voronoi曲面细分和随机场理论的场地调查程序优化</h3>
+<p>论文题为<strong>On the optimization of site investigation programs using centroidal Voronoi tessellation and random field theory</strong>（<em>关于应用质心Voronoi曲面细分和随机场理论的场地调查程序优化</em>），发表于期刊<strong><em>Computers and Geotechnics</em></strong>。<em>黄林冲教授</em>为第一作者，<em>赖正首副教授</em>为通讯作者。该研究受到国家自然科学基金项目、广东省自然科学基金项目和广州市科技计划项目等资助。</p>
+<h4 id="_1">问题描述</h4>
+<p>在岩土工程中，如土壤密度、压缩指数等场地性质十分重要。工程的设计与建设需要确定或估计场地内每个位置的场地性质、区分这些参数所影响的土壤层的分布，以表征岩土工程地面模型。然而场地性质具有空间变异性，即随着空间变化而变化。其原因是多方面的，例如材料成分的波动、土壤颗粒运输和沉积过程中的随机排列等。尽管场地性质存在空间变异性，但所有位置的场地性质通常相关或相互依赖，这种自相关的特征为站点表征方法的开发提供了良好的基础。如何设计场地调查程序以更好地完成上述任务是许多工程应用的一项重要任务。</p>
+<h4 id="_2">主要创新</h4>
+<ul>
+<li>提出了基于CVT的方法以设计和优化场地调查程序，其中CVT是一种特殊类型的质心Voronoi曲面细分；改进了生成CVT的Lloyd算法，使其适用于有限空间的CVT生成（图1）。</li>
+</ul>
+<p></p><center>
+<p><img alt="workflow" src="../fig-1.png" style="width:70%"></p>
+<p>图 1 应用Lloyd算法使用辅助种子生成有界Voronoi曲面细分示意图，其中（a）没有辅助种子的 Voronoi 曲面细分图，(b)具有辅助种子的Voronoi曲面细分图，(c) 最终有界 Voronoi 曲面细分图</p>
+<p></p></center>
+<ul>
+<li>提出了量化场地性质准确性的指标，以射频（RF）统计的信噪比、特征站点信噪比的平均值和标准差表征场地调查程序的鲁棒性。前者很好地反映了全局表征精度，而后者则强调局部精度（图2）。</li>
+</ul>
+<p></p><center>
+<p><img alt="workflow" src="../fig-2.png" style="width:70%"></p>
+<p>图 2 具有不规则几何形状的、基于CVT的场地调查和结果表征图，其中（a）具有100个调查位置的基于CVT的场地调查程序示意图，（b）RF统计的鲁棒性表征图，（c）特征站点鲁棒性表征图，（d）特征站点属性的鲁棒性直方图。</p>
+<p></p></center>
+<ul>
+<li>基于上述内容，使用两个说明性示例（包括方形场地和不规则场地）以评估基于 CVT 的场地调查程序的性能，证明了该方法在任意数量的调查位置和不规则形状场地上的潜力。</li>
+</ul>
+<h4 id="_3">科学价值</h4>
+<p>本文提出了一种基于 CVT 的方法来设计和优化场地调查程序及一种用于生成 CVT 的改进的 Lloyd 算法，示例证明，该方法总体表现优于随机布局或结构网格的现场调查方案，可应用于具有不规则几何形状的场地以及场地调查程序的优化。</p>
+<h5 id="_4">编辑：郭子琦</h5></div></div>
             <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
